@@ -11,6 +11,6 @@ export async function GET(request: NextRequest): Promise<NextResponse> {
   storeReferer(sessionId, referer);
 
   // Redirect to the complete page with the session ID as a query parameter
-  const redirectUrl = `http://localhost:3000/complete?sessionId=${sessionId}`;
+  const redirectUrl = `https://test-my-url.vercel.app/complete?sessionId=${sessionId}`;
   return NextResponse.redirect(redirectUrl);
 }
