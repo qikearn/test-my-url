@@ -13,7 +13,7 @@ export async function GET(request: Request): Promise<NextResponse> {
       );
     }
 
-    const publisherUrl = "https://rb.gy/5hj2cd";
+    const publisherUrl = "http://shortano.link/Done3";
     // const publisherUrl = "https://tinyurl.com/3upbjae8";
     const sessionToken = addTask(linkId, publisherUrl);
 
